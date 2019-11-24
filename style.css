@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.header1{
+    width: 89%;
+    height: 58px;
+    margin-left: 94px;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    border: 1px solid brown;
+    width: 609px;
+
+}
+
+.right{
+    border: 1px solid green;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.h-n1, .l-n1{
+    display: flex;
+    list-style: none;
+}
+
+.link,.links{
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+.login-nav{
+    font-size: 14px;
+    margin-right: 11px;
+    border: 1px solid blue;
+}
