@@ -3,42 +3,95 @@
     margin: 0px;
 }
 
+header{
+    background-color: #1d1d1d;
+}
 
-
-.header1{
-    width: 89%;
+.header-container{
+    width: 1644px;
     height: 58px;
     margin-left: 94px;
     display: flex;
+    justify-content: space-between;
 }
 
 .left{
+    width: 444px;
     display: flex;
-    border: 1px solid brown;
-    width: 609px;
+    height:100%;
+    justify-content: space-between;
+}
 
+.logocontainer{
+    padding-top: 5px;
+}
+
+.topic{
+    font-family: 'Arimo', sans-serif;
+    padding-top: 3px;
+    font-size: 18px;
+    padding-right: 3px;
+    padding-top: 15px;
+    color: #91918d;
 }
 
 .right{
-    border: 1px solid green;
-    display: flex;
-    width: 100%;
+    width: 547px;
     justify-content: flex-end;
-
+    display: flex;
+    height: 100%;
 }
+
+.search-bar{
+    width: 250px;
+}
+
+.home-nav{
+    width: 185px;
+}
+
+.h-n1{
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 23px;
+    margin:1px solid blue;
+}
+
+.link{
+    color: #749191;
+}
+
+.link1{
+    margin-left:9px;
+}
+
+.link2{
+    margin-right:23px;
+}
+
+.login-nav{
+    width: 107px;
+}
+
+.links{
+    color: #ffffff;
+}
+
 
 .h-n1, .l-n1{
     display: flex;
     list-style: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    padding-top: 21px;
 }
+
+
+
 
 .link,.links{
     text-decoration: none;
-    margin-left: 1px;
+    padding-right: 4px;
+   
 }
 
-.login-nav{
-    font-size: 14px;
-    margin-right: 11px;
-    border: 1px solid blue;
-}
