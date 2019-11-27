@@ -119,14 +119,6 @@ header{
     border-bottom:1px solid #bcc1c7;
 }
 
-.section11, .section12{
-    height: 239px;
-    width: 1169px;
-}
-.section12{
-    height: 752px;
-}
-
 .write {
     margin-top: 49px;
     font-family: 'Arimo', sans-serif;
@@ -176,11 +168,114 @@ header{
     height: 100%;
 }
 
+.section11, .section12{
+    height: 239px;
+    width: 1169px;
+}
+
+.section12{
+    height: 752px;
+}
+
+.movies1{
+    width: 1100px;
+    height: 363px;
+    margin-top: 22px;
+    margin-left: 34px;
+}
+
+.movies1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 71px;
+}
+
+
+.photo1 {
+    border: 6px solid white;
+    height: 316px;
+    width: 95%;
+    border-radius: 4px;
+}
+
+.resize {
+    width: 210px;
+    height: 316px;
+}
+
+.m-name{
+    height: 34px;
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.name{
+    font-size: .95em;
+    font-weight: 700;
+    color:#fff;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: -.03em;
+}
+
+.date{
+    font-size: .85em;
+    color:#919191;
+}
+
+
 .section2{
     width: 100%;
     height: 884px;
     background-color: #171717;
+    display: flex;
+    justify-content: center;
 }
+
+
+.section21{
+    width: 1169px;
+    height: 100%;
+    
+}
+
+.l-n{
+    width: 1140px;
+    height: 16px;
+    margin-top: 43px;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-nl{
+    font-size: 1.15em;
+    font-weight: 700;
+    font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif;
+    letter-spacing: -.05em;
+    color: #fff;
+}
+
+.l-nr{
+    font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif;
+    letter-spacing: -.03em;
+    font-size: 14px;
+    font-weight: 700;
+    color:#919191;
+}
+
+.movies2{
+    width: 1100px;
+    height: 746px;
+    margin-top: 31px;
+    margin-left: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 71px;
+    grid-row-gap:18px;
+}
+
 
 .section3{
     width: 100%;
@@ -190,3 +285,29 @@ header{
 
 /* main */
 
+/*
+
+.box5{
+    background-color: yellow;
+}
+.box6{
+    background-color: red;
+}
+.box7{
+    background-color: blue;
+}
+.box8{
+    background-color: rgb(41, 41, 37);
+}
+.box9{
+    background-color: rgb(255, 0, 179);
+}
+.box10{
+    background-color: rgb(43, 255, 0);
+}
+.box11{
+    background-color: rgb(255, 30, 0);
+}
+.box12{
+    background-color: rgb(0, 225, 255);
+}
